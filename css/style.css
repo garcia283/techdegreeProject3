@@ -24,6 +24,7 @@ h1 {
 h2 {
   color: #112540;
   font-size: 1.3em;
+
 }
 
 .wrapper {
@@ -34,6 +35,7 @@ h2 {
 .border {
   margin-top: 3px;
   border-top: 2px solid  #112540;
+  border-bottom: 2px solid #112540;
 }
 
 fieldset {
@@ -56,7 +58,7 @@ label {
   margin-bottom: 10px;
 }
 
-h2 ~ label {
+legend ~ label {
   margin-bottom: 15px;
   font-size: .9em;
 }
@@ -97,7 +99,7 @@ input:focus {
 
 select {
   padding: 10px 0;
-  height: 52px; 
+  height: 52px;
 }
 
 input[name*="user_zip"] {
