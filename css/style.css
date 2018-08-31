@@ -149,10 +149,11 @@ button:hover {
   }
 
   label {
-    flex-basis: 193px;
-    align-self: center;
+    flex-basis: 100px;
   }
 
-
+  input {
+    flex-basis: 2; 
+  }
 
 }
