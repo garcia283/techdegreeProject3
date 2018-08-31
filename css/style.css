@@ -27,7 +27,7 @@ h2 {
 }
 
 .wrapper {
-  max-width: 310px;
+  max-width: 300px;
   margin: auto;
 }
 
@@ -97,11 +97,11 @@ input:focus {
 
 select {
   padding: 10px 0;
-  height: 55px;
+  height: 52px; 
 }
 
 input[name*="user_zip"] {
-  width: 150px;
+  width: 125px;
 }
 
 input::placeholder {
@@ -148,12 +148,19 @@ button:hover {
     display: flex;
   }
 
-  label {
-    flex-basis: 100px;
+  .contact-label {
+    flex-basis: 150px;
+    align-self: center;
+    margin-right: 50px;
   }
 
-  input {
-    flex-basis: 2; 
+  .zip-label {
+    flex-basis: 115px;
   }
+
+  input[name*="user_zip"] {
+    width: 200px;
+  }
+
 
 }
