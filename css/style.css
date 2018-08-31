@@ -34,7 +34,6 @@ h2 {
 .border {
   margin-top: 3px;
   border-top: 2px solid  #112540;
-  outline: none;
 }
 
 fieldset {
@@ -50,6 +49,7 @@ fieldset {
 .header-label {
   margin-top: 30px;
 }
+
 
 label {
   display: inline-block;
@@ -101,7 +101,7 @@ select {
 }
 
 input[name*="user_zip"] {
-  width: 55%;
+  width: 150px;
 }
 
 input::placeholder {
@@ -146,7 +146,11 @@ button:hover {
 
   .container {
     display: flex;
-    flex-direction: row;
+  }
+
+  label {
+    flex-basis: 193px;
+    align-self: center;
   }
 
 
